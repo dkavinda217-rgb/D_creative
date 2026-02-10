@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D_Creative | ICT Solutions & Smart Selling</title>
+    <meta name="description"
+        content="D_Creative provides creative, reliable, and affordable ICT solutions including web development, graphic design, IT support, and product selling.">
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <a href="#" class="logo">D_<span class="accent">Creative</span></a>
+            <div class="menu-toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home" class="nav-link">Home</a></li>
+                <li><a href="#about" class="nav-link">About</a></li>
+                <li><a href="#services" class="nav-link">Services</a></li>
+                <li><a href="#owner" class="nav-link">Owner</a></li>
+                <li><a href="#contact" class="nav-link btn-cta">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <h1>Creative ICT Solutions & <span class="text-highlight">Smart Selling</span></h1>
+            <p>Providing innovative technology solutions and quality products for small businesses and individuals. Your
+                partner in digital growth.</p>
+            <div class="hero-btns">
+                <a href="#contact" class="btn btn-primary">Get a Quote</a>
+                <a href="#contact" class="btn btn-secondary">Contact Us</a>
+            </div>
+        </div>
+        <div class="hero-bg-overlay"></div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section about">
+        <div class="container">
+            <div class="section-header">
+                <h2>About Us</h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Who We Are</h3>
+                    <p>D_Creative is a forward-thinking ICT and selling company dedicated to bridging the gap between
+                        technology and creativity. We understand the unique needs of modern businesses and consumers.
+                    </p>
+
+                    <h3>Our Mission</h3>
+                    <p>To provide <strong>creative, reliable, and affordable</strong> ICT solutions while offering a
+                        curated selection of smart products. We aim to empower small businesses and individuals with the
+                        tools they need to succeed in the digital era.</p>
+                </div>
+                <div class="about-stats">
+                    <div class="stat-card">
+                        <i class="fa-solid fa-lightbulb"></i>
+                        <h4>Creative</h4>
+                        <p>Innovative Solutions</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fa-solid fa-shield-halved"></i>
+                        <h4>Reliable</h4>
+                        <p>Trusted Services</p>
+                    </div>
+                    <div class="stat-card">
+                        <i class="fa-solid fa-tags"></i>
+                        <h4>Affordable</h4>
+                        <p>Best Value</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section services">
+        <div class="container">
+            <div class="section-header">
+                <h2>Our Services</h2>
+                <div class="underline"></div>
+                <p>Comprehensive solutions tailored to your needs.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- ICT Services -->
+                <div class="service-category">
+                    <h3><i class="fa-solid fa-laptop-code"></i> ICT Services</h3>
+                    <div class="service-cards">
+                        <div class="card">
+                            <div class="icon-box"><i class="fa-solid fa-code"></i></div>
+                            <h4>Web Development</h4>
+                            <p>Custom websites, responsive design, and web applications built for performance.</p>
+                        </div>
+                        <div class="card">
+                            <div class="icon-box"><i class="fa-solid fa-pen-nib"></i></div>
+                            <h4>Graphic Design</h4>
+                            <p>Branding, logos, marketing materials, and UI/UX design.</p>
+                        </div>
+                        <div class="card">
+                            <div class="icon-box"><i class="fa-solid fa-headset"></i></div>
+                            <h4>IT Support</h4>
+                            <p>Technical assistance, hardware/software troubleshooting, and consultancy.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Product Selling -->
+                <div class="service-category">
+                    <h3><i class="fa-solid fa-shop"></i> Product Selling</h3>
+                    <div class="service-cards">
+                        <div class="card">
+                            <div class="icon-box"><i class="fa-solid fa-cloud-arrow-down"></i></div>
+                            <h4>Digital Products</h4>
+                            <p>Software licenses, digital assets, templates, and e-books.</p>
+                        </div>
+                        <div class="card">
+                            <div class="icon-box"><i class="fa-solid fa-microchip"></i></div>
+                            <h4>ICT-Related Items</h4>
+                            <p>Computer accessories, gadgets, and smart tech essentials.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Owner Section -->
+    <section id="owner" class="section owner">
+        <div class="container">
+            <div class="owner-wrapper">
+                <div class="owner-image">
+                    <!-- Placeholder logic: Try to load owner.jpg. If it fails (not added yet), show a styled placeholder div -->
+                    <img src="assets/owner.jpg" alt="D. Kavinda - Founder" id="owner-img"
+                        onerror="this.style.display='none'; document.getElementById('owner-placeholder').style.display='flex';">
+                    <div id="owner-placeholder"
+                        style="display:none; width:100%; height:400px; background:#e2e8f0; align-items:center; justify-content:center; flex-direction:column; color:#64748b;">
+                        <i class="fa-solid fa-user-tie" style="font-size: 5rem; margin-bottom: 20px;"></i>
+                        <p>Upload owner.jpg to assets folder</p>
+                    </div>
+                </div>
+                <div class="owner-info">
+                    <h2>Meet the Founder</h2>
+                    <div class="underline-left"></div>
+                    <p class="owner-quote">"Technology is best when it brings people together and solves real-world
+                        problems. At D_Creative, we are committed to excellence and innovation."</p>
+                    <h3>D. Kavinda</h3>
+                    <!-- Assuming name from email or context, user didn't specify owner name explicitly other than providing a photo, but email is 'dkavinda...' -->
+                    <span class="role">Founder & CEO</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact">
+        <div class="container">
+            <div class="section-header">
+                <h2>Contact Us</h2>
+                <div class="underline"></div>
+                <p>Ready to start your project? Get in touch with us today.</p>
+            </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-info">
+                    <div class="info-item">
+                        <i class="fa-solid fa-phone"></i>
+                        <div>
+                            <h5>Phone</h5>
+                            <p><a href="tel:0768494653">076 849 4653</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-solid fa-envelope"></i>
+                        <div>
+                            <h5>Email</h5>
+                            <p><a href="mailto:dkavinda217@gmail.com">dkavinda217@gmail.com</a></p>
+                        </div>
+                    </div>
+                    <div class="info-item">
+                        <i class="fa-brands fa-facebook"></i>
+                        <div>
+                            <h5>Social Media</h5>
+                            <p><a href="https://www.facebook.com/share/17sKvjPSb4/?mibextid=wwXIfr"
+                                    target="_blank">Follow us on Facebook</a></p>
+                        </div>
+                    </div>
+                </div>
+
+                <form class="contact-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" required placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" required placeholder="Your Email">
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" rows="5" required placeholder="Your Message"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary submit-btn">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <div class="footer-brand">
+                <h3>D_<span class="accent">Creative</span></h3>
+                <p>Creative ICT Solutions & Smart Selling</p>
+            </div>
+            <div class="footer-links">
+                <a href="https://www.facebook.com/share/17sKvjPSb4/?mibextid=wwXIfr" target="_blank"
+                    class="social-icon"><i class="fa-brands fa-facebook-f"></i></a>
+            </div>
+            <div class="footer-copyright">
+                <p>&copy; 2026 D_Creative – All Rights Reserved</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
